@@ -1,0 +1,67 @@
+{
+  "profile": {
+    "img": "/img/fotoCurriculo.png",
+    "nome": "Caio",
+    "sobrenome": "Tucano",
+    "cidade": "Aramina",
+    "estado": "SP",
+    "contato": "(16)99625-1783",
+    "email": "caio.tucano@outlook.com",
+    "biografia": "Me chamo Caio, tenho 29 anos, cursando Analise e Desenvolvimento de Sistemas. Sou extremamente motivado e focado no desenvolvimento de minhas habilidades e crescimento profissional, criando boas relações no ambiente de trabalho. Bom raciocínio lógico e disposição para aprender algo novo. Busco crescer, desenvolver e seguir carreira nas áreas de tecnologia.",
+    "github": "https://github.com/TucanoCaio",
+    "linkedin": "https://www.linkedin.com/in/caiotucano",
+    "experiencia": [
+      {
+        "id": 1,
+        "cargo": "Analista de Controles Operacionais",
+        "empresa": "Raízen",
+        "periodo": "Jun/215 - Atual",
+        "atividades": "Analisar dados de relatórios gerenciais. Elaborar relatórios, gráficos e mapas de acompanhamento. Comparar variação da previsão x realizado das ares de produção agrícola da empresa. Recomendar e analisar consumo de insumos das areas agricolas."
+      }
+    ],
+    "habilidade": [
+      {
+        "id": 1,
+        "habilidade": "Sistema Operacional Microsoft Windows",
+        "nivel": "Nível alto",
+        "tempo": "15 anos"
+      },
+      {
+        "id": 2,
+        "habilidade": "Microsoft Excel",
+        "nivel": "Nível alto",
+        "tempo": "7 anos"
+      },
+      {
+        "id": 3,
+        "habilidade": "Python",
+        "nivel": "Nível baixo",
+        "tempo": "4 meses"
+      },
+      {
+        "id": 4,
+        "habilidade": "HTML",
+        "nivel": "Nível baixo",
+        "tempo": "3 meses"
+      },
+      {
+        "id": 5,
+        "habilidade": "JavaScript",
+        "nivel": "Nível baixo",
+        "tempo": "3 meses"
+      },
+      {
+        "id": 6,
+        "habilidade": "Java",
+        "nivel": "Nível baixo",
+        "tempo": "1 meses"
+      },
+      {
+        "id": 7,
+        "habilidade": "React",
+        "nivel": "Nível baixo",
+        "tempo": "menos de 1 mes"
+      }
+    ]
+  }
+}
