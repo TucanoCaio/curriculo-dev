@@ -1,16 +1,17 @@
 import React from "react";
-import "./section.css";
 import Title from "../Title/index.js";
 import Card from "../Card/index.js";
 import Redes from "../Rede/index.js";
 import Skills from "../Skill/index.js";
+import Projetos from "../Projetos/index.js";
+import Contato from "../Contatos/index.js";
 import { Highlight, Info } from "../Card/styles";
 import { SectionHeading, Sections } from "./styles";
 
 const Section = ({ profile }) => (
   <>
     <Sections id="about">
-      <Title texto="Olá, me me chamo" />
+      <Title texto="Olá, me chamo" />
       <SectionHeading>
         {profile.nome} <Highlight>{profile.sobrenome}</Highlight>
       </SectionHeading>
@@ -23,9 +24,16 @@ const Section = ({ profile }) => (
         <Title texto="Redes Sociais" />
         <Redes github={profile.github} linkedin={profile.linkedin} />
       </Info>
-      <div className="contacts" id="contacts">
-        <Title texto="CONTATOS - ACQA" />
-      </div>
+      <Info id="contacts">
+        <Title texto="Contatos e Referencias" />
+        {profile.referencia.map((cont) => (
+          <Contato
+            key={cont.id}
+            nomePessoa={cont.nomePessoa}
+            contato={cont.contato}
+          />
+        ))}
+      </Info>
     </Sections>
     <Sections id="experience">
       <Title texto="Experiencia" />
@@ -52,7 +60,16 @@ const Section = ({ profile }) => (
       ))}
     </Sections>
     <Sections id="projects">
-      <Title texto="PROJETOS ACQA" />
+      <Title texto="Projetos" />
+
+      {profile.projetos.map((proj) => (
+        <Projetos
+          chave={proj.id}
+          nomeProjeto={proj.nomeProjeto}
+          repGithub={proj.repGithub}
+          appRun={proj.appRun}
+        />
+      ))}
     </Sections>
   </>
 );

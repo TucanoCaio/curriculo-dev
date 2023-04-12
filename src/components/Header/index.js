@@ -14,6 +14,9 @@ const Header = ({ img }) => (
             <Itens to="#about">Sobre</Itens>
           </Li>
           <Li>
+            <Itens to="#contacts">Contatos</Itens>
+          </Li>
+          <Li>
             <Itens to="#experience">Experiência</Itens>
           </Li>
           <Li>

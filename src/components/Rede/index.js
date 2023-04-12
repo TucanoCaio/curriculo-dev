@@ -5,12 +5,12 @@ import { Hlink } from "./Styles";
 const Redes = ({ github, linkedin }) => (
   <BrowserRouter>
     <p>
-      <Hlink to={github}>
+      <Hlink to={github} target="_black">
         <AiFillGithub /> {github}
       </Hlink>
     </p>
     <p>
-      <Hlink to={linkedin}>
+      <Hlink to={linkedin} target="_black">
         <AiFillLinkedin /> {linkedin}
       </Hlink>
     </p>

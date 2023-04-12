@@ -7,7 +7,7 @@
     "estado": "SP",
     "contato": "(16)99625-1783",
     "email": "caio.tucano@outlook.com",
-    "biografia": "Me chamo Caio, tenho 29 anos, cursando Analise e Desenvolvimento de Sistemas. Sou extremamente motivado e focado no desenvolvimento de minhas habilidades e crescimento profissional, criando boas relações no ambiente de trabalho. Bom raciocínio lógico e disposição para aprender algo novo. Busco crescer, desenvolver e seguir carreira nas áreas de tecnologia.",
+    "biografia": "Meu nome é Caio, tenho 29 anos, cursando Analise e Desenvolvimento de Sistemas. Sou extremamente motivado e focado no desenvolvimento de minhas habilidades e crescimento profissional, criando boas relações no ambiente de trabalho. Bom raciocínio lógico e disposição para aprender algo novo. Busco crescer, desenvolver e seguir carreira nas áreas de tecnologia.",
     "github": "https://github.com/TucanoCaio",
     "linkedin": "https://www.linkedin.com/in/caiotucano",
     "experiencia": [
@@ -16,7 +16,7 @@
         "cargo": "Analista de Controles Operacionais",
         "empresa": "Raízen",
         "periodo": "Jun/215 - Atual",
-        "atividades": "Analisar dados de relatórios gerenciais. Elaborar relatórios, gráficos e mapas de acompanhamento. Comparar variação da previsão x realizado das ares de produção agrícola da empresa. Recomendar e analisar consumo de insumos das areas agricolas."
+        "atividades": "Analisar dados de relatórios gerenciais. Elaborar relatórios, gráficos e mapas de acompanhamento. Comparar variação da previsão x realizado das areas de produção agrícola da empresa. Recomendar e analisar consumo de insumos das areas agricolas."
       }
     ],
     "habilidade": [
@@ -61,6 +61,31 @@
         "habilidade": "React",
         "nivel": "Nível baixo",
         "tempo": "menos de 1 mes"
+      }
+    ],
+    "projetos": [
+      {
+        "id": 1,
+        "nomeProjeto": "Curriculo Dev",
+        "repGithub": "https://github.com/TucanoCaio/curriculo-dev",
+        "appRun": "https://curriculo-dev-tucanocaio.vercel.app/"
+      }
+    ],
+    "referencia": [
+      {
+        "id": 1,
+        "nomePessoa": "Francisco Perez",
+        "contato": "5516981594006"
+      },
+      {
+        "id": 2,
+        "nomePessoa": "Patrick Rosa",
+        "contato": "5516996049505"
+      },
+      {
+        "id": 3,
+        "nomePessoa": "Antonio Honorio",
+        "contato": "5516993829118"
       }
     ]
   }
