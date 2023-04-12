@@ -75,17 +75,23 @@
       {
         "id": 1,
         "nomePessoa": "Francisco Perez",
-        "contato": "5516981594006"
+        "contato": "+55 (16) 98159-4006",
+        "telLink": "tel:5516981594006",
+        "whatsappLink": "https://web.whatsapp.com/send?phone=5516981594006"
       },
       {
         "id": 2,
         "nomePessoa": "Patrick Rosa",
-        "contato": "5516996049505"
+        "contato": "+55 (16) 99604-9505",
+        "telLink": "tel:5516996049505",
+        "whatsappLink": "https://web.whatsapp.com/send?phone=5516996049505"
       },
       {
         "id": 3,
         "nomePessoa": "Antonio Honorio",
-        "contato": "5516993829118"
+        "contato": "+55 (16) 99382-9118",
+        "telLink": "tel:5516993829118",
+        "whatsappLink": "https://web.whatsapp.com/send?phone=5516993829118"
       }
     ]
   }

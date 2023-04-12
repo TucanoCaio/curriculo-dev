@@ -31,6 +31,8 @@ const Section = ({ profile }) => (
             key={cont.id}
             nomePessoa={cont.nomePessoa}
             contato={cont.contato}
+            telLink={cont.telLink}
+            whatsappLink={cont.whatsappLink}
           />
         ))}
       </Info>

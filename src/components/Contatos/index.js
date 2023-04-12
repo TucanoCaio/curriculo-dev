@@ -3,17 +3,14 @@ import { BrowserRouter } from "react-router-dom";
 import { IoCall, IoLogoWhatsapp } from "react-icons/io5";
 import { Contacts } from "./style";
 
-const Contato = ({ contato, nomePessoa }) => (
+const Contato = ({ contato, nomePessoa, whatsappLink, telLink }) => (
   <BrowserRouter>
     <p>
-      <Contacts to="tel:{contato}">
+      <Contacts to={telLink}>
         <IoCall />
         {nomePessoa} - {contato}
       </Contacts>
-      <Contacts
-        to="https://web.whatsapp.com/send?phone={contato}"
-        target="_blank"
-      >
+      <Contacts to={whatsappLink} target="_blank">
         <IoLogoWhatsapp /> {contato}
       </Contacts>
     </p>
